@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 21.02.2023 klo 12:34
+-- Generation Time: 22.02.2023 klo 13:46
 -- Palvelimen versio: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -61,12 +61,13 @@ CREATE TABLE `listings` (
 --
 
 INSERT INTO `listings` (`id`, `title`, `tags`, `company`, `location`, `email`, `website`, `description`, `created_at`, `updated_at`) VALUES
-(1, 'Qui iusto nisi perspiciatis reprehenderit et quo.', 'laravel, api, backend', 'Fay-Weber', 'Lake Sarah', 'shanahan.hilario@boehm.com', 'http://block.com/nostrum-sed-iusto-odio-accusantium-eos-eligendi', 'Non ut nulla eius odio dolorem praesentium et. Unde tempora officia ut. Voluptatem vel assumenda nam non provident. Non velit sint molestias in autem modi veritatis recusandae. Eius nostrum rem quasi sapiente perferendis animi aperiam sint. Nihil sunt voluptatem aut modi blanditiis corporis dignissimos.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
-(2, 'Eum voluptate minus officia maiores.', 'laravel, api, backend', 'Reichert-Maggio', 'Vonmouth', 'eliza52@mills.com', 'http://www.rath.com/ut-velit-et-minus-architecto-voluptas-iusto.html', 'Laborum velit a quia inventore eos. Quis iusto quidem ut sit. Id necessitatibus aut esse fuga modi eum. Voluptatem et ea exercitationem et sint praesentium. Qui rerum iste suscipit in qui a.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
+(1, 'Qui iusto nisi perspiciatis reprehenderit et quo.', 'laravel, api, frontend', 'Fay-Weber', 'Lake Sarah', 'shanahan.hilario@boehm.com', 'http://block.com/nostrum-sed-iusto-odio-accusantium-eos-eligendi', 'Non ut nulla eius odio dolorem praesentium et. Unde tempora officia ut. Voluptatem vel assumenda nam non provident. Non velit sint molestias in autem modi veritatis recusandae. Eius nostrum rem quasi sapiente perferendis animi aperiam sint. Nihil sunt voluptatem aut modi blanditiis corporis dignissimos.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
+(2, 'Eum voluptate minus officia maiores.', 'laravel, vue, backend', 'Reichert-Maggio', 'Vonmouth', 'eliza52@mills.com', 'http://www.rath.com/ut-velit-et-minus-architecto-voluptas-iusto.html', 'Laborum velit a quia inventore eos. Quis iusto quidem ut sit. Id necessitatibus aut esse fuga modi eum. Voluptatem et ea exercitationem et sint praesentium. Qui rerum iste suscipit in qui a.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
 (3, 'Laborum commodi corporis et aspernatur.', 'laravel, api, backend', 'Reynolds, Beier and Fahey', 'Americofort', 'zita47@skiles.com', 'http://kozey.net/perferendis-ad-est-odit-eius-alias-qui.html', 'Qui molestiae ea culpa laudantium atque. Facere delectus assumenda molestiae eveniet minima tempore corrupti. Labore expedita eum rerum sapiente veniam. Omnis voluptatem voluptates voluptas ut quis nostrum nam.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
 (4, 'Deleniti itaque aut quidem repudiandae et et.', 'laravel, api, backend', 'Schmeler-Parisian', 'East Selenaberg', 'sipes.cassandra@crooks.com', 'http://bins.com/', 'Sunt quam autem incidunt corporis nostrum autem adipisci. Est beatae aut harum voluptates excepturi est est. Enim quis recusandae non quia cum rerum. Tempore at itaque impedit laborum quaerat voluptates odit. Quas qui distinctio ipsa totam et possimus.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
 (5, 'Voluptates tenetur inventore rem magnam.', 'laravel, api, backend', 'Will Group', 'East Nellehaven', 'eulalia40@ratke.com', 'http://www.moen.info/ea-voluptas-vel-ut-quod-nemo-aperiam-iure-rerum', 'Sequi eius et est earum aliquam ad. Eos eum iusto dolores officiis ducimus quia. Aspernatur qui blanditiis porro. Sit rerum nemo aut debitis. Fuga et laboriosam sint laborum earum tenetur vero. Quaerat molestiae qui natus.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
-(6, 'Facere enim officia sunt deserunt nostrum maxime soluta.', 'laravel, api, backend', 'Langworth Group', 'Kochhaven', 'vjohns@huels.net', 'http://www.hand.com/cumque-laborum-voluptatem-ipsam-fuga-nulla-sit', 'Minus hic atque veniam aspernatur et aut est. Soluta ducimus perferendis fugit aliquid illo fugiat dicta. Neque blanditiis ab aut temporibus. Labore consectetur expedita doloribus exercitationem nulla architecto qui. Possimus aut error ipsum qui.', '2023-02-21 09:33:26', '2023-02-21 09:33:26');
+(6, 'Facere enim officia sunt deserunt nostrum maxime soluta.', 'laravel, api, backend', 'Langworth Group', 'Kochhaven', 'vjohns@huels.net', 'http://www.hand.com/cumque-laborum-voluptatem-ipsam-fuga-nulla-sit', 'Minus hic atque veniam aspernatur et aut est. Soluta ducimus perferendis fugit aliquid illo fugiat dicta. Neque blanditiis ab aut temporibus. Labore consectetur expedita doloribus exercitationem nulla architecto qui. Possimus aut error ipsum qui.', '2023-02-21 09:33:26', '2023-02-21 09:33:26'),
+(7, 'Junior Developer', 'frontend, react, js', 'Oy 4ever Solutions Ab', 'Helsinki', 'test@test.com', 'www.google.com', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '2023-02-22 10:42:55', '2023-02-22 10:42:55');
 
 -- --------------------------------------------------------
 
@@ -213,7 +214,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `listings`
 --
 ALTER TABLE `listings`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `migrations`
